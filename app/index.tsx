@@ -31,13 +31,13 @@ const handleLogin = () => {
 
         {/* Action Buttons */}
         <View style={styles.buttonContainer}>
-          <TouchableOpacity style={styles.registerButton} onPress={handleRegister}>
-            <Text style={styles.registerButtonText}>S'INSCRIRE</Text>
-          </TouchableOpacity>
+         <a href="/auth/register" style={styles.registerButton}>
+  <Text style={styles.registerButtonText}>S'INSCRIRE</Text>
+</a>
 
-          <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
-            <Text style={styles.loginButtonText}>CONNEXION</Text>
-          </TouchableOpacity>
+<a href="/auth/login" style={styles.loginButton}>
+  <Text style={styles.loginButtonText}>CONNEXION</Text>
+</a>
         </View>
 
         {/* Footer */}
