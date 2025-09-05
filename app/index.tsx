@@ -81,6 +81,7 @@ const styles = StyleSheet.create({
     width: '100%',
     gap: 16,
     marginBottom: 40,
+    alignItems: 'center',
   },
   registerButton: {
     backgroundColor: '#5D2E0A',
@@ -90,6 +91,8 @@ const styles = StyleSheet.create({
     minHeight: 56,
     justifyContent: 'center',
     alignItems: 'center',
+    width: '80%',  // ← AJOUTER CETTE LIGNE
+  // ... autres styles
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
