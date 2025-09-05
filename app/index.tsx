@@ -6,11 +6,11 @@ export default function WelcomeScreen() {
   const router = useRouter();
 
  const handleRegister = () => {
-  window.location.href = '/auth/register.html';
+  window.location.href = '/auth/register';
 };
 
 const handleLogin = () => {
-  window.location.href = '/auth/login.html';
+  window.location.href = '/auth/login';
 };
 
   return (
