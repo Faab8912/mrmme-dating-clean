@@ -5,14 +5,6 @@ import { useRouter } from 'expo-router';
 export default function WelcomeScreen() {
   const router = useRouter();
 
- const handleRegister = () => {
-  window.location.href = '/auth/register';
-};
-
-const handleLogin = () => {
-  window.location.href = '/auth/login';
-};
-
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor="#F5F2ED" />
