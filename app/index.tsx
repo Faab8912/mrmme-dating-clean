@@ -5,13 +5,13 @@ import { useRouter } from 'expo-router';
 export default function WelcomeScreen() {
   const router = useRouter();
 
-  const handleRegister = () => {
-    router.push('/auth/register');
-  };
+ const handleRegister = () => {
+  window.location.href = '/auth/register.html';
+};
 
-  const handleLogin = () => {
-    router.push('/auth/login');
-  };
+const handleLogin = () => {
+  window.location.href = '/auth/login.html';
+};
 
   return (
     <SafeAreaView style={styles.container}>
